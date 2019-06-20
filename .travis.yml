@@ -5,5 +5,5 @@ git:
     false
 before_install:
   - echo -e "machine bitbucket.org\n  login $BITBUCKET_USER_NAME\n password $BITBUCKET_USER_PASSWORD" >~/.netrc
-  - git submodule update --init --recursive
+  - git submodule update --init
 
